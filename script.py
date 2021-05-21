@@ -51,7 +51,7 @@ Bot will automatically search for your files and give links to that!
 <b>© @movieuploaders</b>"""
 
 
-    ABOUT_MSG = """⭕️<b>My Name : Sunny Leone 2.0</b>
+    ABOUT_MSG = """⭕️<b>My Name : Emma Watson 2.0</b>
     
 ⭕️<b>Creater :</b> @rfxjoker
 
