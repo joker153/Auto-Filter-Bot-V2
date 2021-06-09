@@ -62,7 +62,7 @@ async def filter(client: Bot, message: Message):
                 [InlineKeyboardButton(text="📃 Pages 1/1",callback_data="pages")]
             )
             await message.reply_text(
-                f"<b> Here is the result for {message.text}</b>",
+                f"""<i><b> ʜᴇʀᴇ ɪꜱ ᴛʜᴇ {(len_results)} ꜰᴏʀ yᴏᴜʀ qᴜᴇʀy:</i></b> <b>{query}</b>\n\n 👉 <b>ഈ ചാനലിൽ</b> <b><i><a href="https://t.me/movieuploader1">⚔️ 🅼🅾🆅🅸🅴🆄🅿🅻🅾🅰🅳🅴🆁🆂 ⚔️</a></i></b> <b>ജോയിൻ ചെയ്ത ശേഷം ബട്ടൺ ക്ലിക്ക് ചെയ്യുക.</b>""",
                 reply_markup=InlineKeyboardMarkup(buttons)
             )
             return
